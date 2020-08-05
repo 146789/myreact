@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>resume2</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, inital-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<!-- <link rel="stylesheet" type="text/css" href="file:///H:/fontawesome-free-5.13.1-web/fontawesome-free-5.13.1-web/css/all.css">
+	<link rel="stylesheet" type="text/css" href="H:/apssdcproject/css/all.css"> -->
+	<link rel="stylesheet" type="text/css" href="file:///H:/apssdcproject/fontawesome-free-5.13.1-web/fontawesome-free-5.13.1-web/css/all.css">
+	<script src="https://use.fontawesome.com/15f267fb43.js"></script>
+	<script src="https://kit.fontawesome.com/58e86038ef.js" crossorigin="anonymous"></script>
+</head>
+<style type="text/css">
+	.resume {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		margin: 1%;
+		padding-right: 1%;
+	}
+	.biodata {
+		justify-content: center;
+		font-size: 17px;
+	}
+	.profile {
+
+		border: 2px solid #ddd;
+		justify-content: center;
+		padding: 1%;
+	}
+	.career {
+
+		border: 2px solid #dddd;
+		padding: 1%;
+	}
+	.name {
+		font-size: 18px;
+		font-weight: ;
+	}
+	tbody {
+		background-color: #EAECEE;
+	}
+	a {
+
+	}
+	
+	@media only screen and (min-width: 325px) and (max-width: 490px) {
+			.resume {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			margin: 1%;
+			padding-right: 1%;
+		}
+		.profile {
+
+			border: 2px solid #ddd;
+			justify-content: center;
+			border-top-left-radius: 1%; 
+			border-top-right-radius: 1%;
+			background-color: #34495E;
+			padding: 2%;
+
+		}
+		.career {
+
+			border: 2px solid #dddd;
+			padding: 1%;
+			border-bottom-left-radius: 1%; 
+			border-bottom-right-radius: 1%;
+			background-color: #B2BABB;
+		}
+		.container {
+			display: flex;
+			flex-direction: column;
+			margin-top: 2%;
+			margin-bottom: 2%;
+			justify-content: center;
+		}
+		.card {
+			align-content: center;
+		}
+		tbody {
+			background-color: #D5D8DC;
+		}
+		.card-body {
+			background-color: #D7DBDD;
+		}
+	}
+	@media only screen and (min-width: 768px) and (max-width: 1024px) {
+		.resume {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			margin: 1%;
+			padding-right: 1%;
+		}
+		.profile {
+
+			border-right: 2px solid #ddd;
+			background-color: #E5E7E9;
+			border-top: 2px solid #ddd;
+			border-left: 2px solid #ddd;
+			justify-content: center;
+			padding: 1%;
+			margin-bottom: 1%;
+			border-top-left-radius: 1%; 
+			border-top-right-radius: 1%;
+		}
+		.career {
+
+			border: 2px solid #dddd;
+			padding: 1%;
+			border-bottom-left-radius: 1%; 
+			border-bottom-right-radius: 1%;
+			background-color: #E5E7E9;
+		}
+		.container {
+			background-color: #E5E7E9;
+			display: flex;
+			flex-direction: row;
+			font-size: 16px;
+			margin-bottom: 1%;
+			justify-content: center;
+		}
+		.name {
+			font-size: 17px;
+			line-height: normal;
+
+		}
+		.card {
+			display: flex;
+
+			padding: 1%;
+			margin: 1%;
+		}
+		.card-body {
+			margin-top: 1%;
+			padding-bottom: 1%;
+			justify-content: space-between;
+		}
+		tbody {
+			background-color: #FBFCFC;
+		}
+	}
+	@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+		.resume {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			margin: 1%;
+			padding-right: 1%;
+		}
+		.profile {
+
+			border-right: 2px solid #ddd;
+			background-color: #E5E7E9;
+			border-top: 2px solid #ddd;
+			border-left: 2px solid #ddd;
+			justify-content: center;
+			padding: 1%;
+			margin-bottom: 1%;
+			border-top-left-radius: 1%; 
+			border-top-right-radius: 1%;
+		}
+		.career {
+
+			border: 2px solid #dddd;
+			padding: 1%;
+			border-bottom-left-radius: 1%; 
+			border-bottom-right-radius: 1%;
+			background-color: #E5E7E9;
+		}
+		.container {
+			background-color: #E5E7E9;
+			display: flex;
+			flex-direction: row;
+			font-size: 16px;
+			margin-bottom: 1%;
+			justify-content: center;
+		}
+		.name {
+			font-size: 17px;
+			justify-content: space-between;
+
+		}
+		.card {
+			display: flex;
+
+			padding: 1%;
+			margin: 1%;
+		}
+		.card-body {
+			margin-top: 1%;
+			padding-bottom: 1%;
+			justify-content: space-between;
+		}
+		tbody {
+			background-color: #FBFCFC;
+		}
+
+	}
+	@media only screen and (min-width: 481px) and (max-width: 767px) {
+		.resume {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			margin: 1%;
+			padding-right: 1%;
+		}
+		.profile {
+
+			border-right: 2px solid #ddd;
+			background-color: #E5E7E9;
+			border-top: 2px solid #ddd;
+			border-left: 2px solid #ddd;
+			justify-content: center;
+			padding: 1%;
+			margin-bottom: 1%;
+			border-top-left-radius: 1%; 
+			border-top-right-radius: 1%;
+
+		}
+		.career {
+
+			border: 2px solid #dddd;
+			padding: 1%;
+			border-bottom-left-radius: 1%; 
+			border-bottom-right-radius: 1%;
+			background-color: #E5E7E9;
+		}
+		.container {
+			background-color: #E5E7E9;
+			display: flex;
+			flex-direction: row;
+			font-size: 16px;
+			margin-bottom: 1%;
+			align-content: center;
+		}
+		.name {
+			font-size: 17px;
+			line-height: normal;
+
+		}
+		.card {
+			display: flex;
+
+			padding: 1%;
+			margin: 1%;
+		}
+		.card-body {
+		}
+		tbody {
+			background-color: #FBFCFC;
+		}
+
+	}
+</style>
+<body>
+	<div class="resume">
+	<div class="profile">
+	<div class="container">
+		<div class="card shadow bg-white rounded" style="width: 300px;">
+
+			<div class="card-body">
+				<img class="card-img-bottom" src="MyProfile.png" alt="Card image" style="">
+			</div>
+		</div>
+		<p></p>
+		<div class="card shadow bg-white rounded" style="width: 300px;">
+			<div class="card-body biodata">	
+				
+				<h3 class="name" style="font-weight: bold;">Munuparthi Naveen</h3>
+				<h3><i class="card-text fas fa-phone-alt name"> 9874563210</i></h3>
+				<h3><i class="card-text fa fa-envelope name" style="line-height: normal;"><a href="mailto:naveensrt248@gmail.com" style="color: black;"> naveensrt248@gmail.com </a></i></h3>
+				<h3><i class="card-text far fa-address-card name" style="line-height: normal;"> Visakhapatnam Andhra Pradesh</i></h3>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="career">
+		<div class="containerc">
+			<h3 style="text-align: left; text-shadow: 0 1px 2px #082829 ; font-size: 200%"><b>Career Objective</b></h3>
+			<p style="text-align: justify;">Looking for a challenging role in a reputable organization to utilize my technical, database, and management skills for the growth of the organization as well as to enhance my knowledge about new and emerging trends in the IT sector.</p><br>
+			<h3 style="text-align: left; text-shadow: 0 1px 2px #082829 ; font-size: 200%"><b>Education</b></h3>
+			<table class="table table-responsive">
+				<thead class="thead-dark">
+					<tr>
+						<th><b>Qualification</b></th>
+						<th><b>School/College</b></th>
+						<th><b>University/Board</b></th>
+						<th><b>Passing year</b></th>
+						<th><b>Stream/DegreeSpecialization</b></th>
+						<th><b>percentage</b></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Undergraduation</td>
+						<td>Raghu Engineering College</td>
+						<td>JNTU Kakinada</td>
+						<td>2014-2018</td>
+						<td>B.Tech Computer Science and Engineering</td>
+						<td>72%</td>
+					</tr>
+					<tr>
+						<td>Class 12</td>
+						<td>Srigayatri junior college</td>
+						<td>BIE</td>
+						<td>2012-2014</td>
+						<td>Maths, Physics, Chemistry</td>
+						<td>92%</td>
+					</tr>
+					<tr>
+						<td>Class 10</td>
+						<td>Pollocks School</td>
+						<td>SSC</td>
+						<td>2012</td>
+						<td></td>
+						<td>92%</td>
+					</tr>
+				</tbody>
+			</table>
+			<h3 style="text-align: left; text-shadow: 0 1px 2px #082829 ; font-size: 200%"><b>Technical Skills</b></h3>
+			<ol type="I" style="text-align: left;font-weight: bold;">
+				<li>Java</li>
+				<li>Mysql</li>
+				<li>Html, CSS, JAVASCRIPT</li>
+			</ol>
+			<h3 style="text-align: left; text-shadow: 0 1px 2px #082829 ; font-size: 200%"><b>Achievements</b></h3>
+			<ul type="disc" style="text-align: left;font-weight: bold">
+				<li>I Qualified in a TCS Code-Vita.</li>
+				<li>I participated Cricket Tournament in held my College and part of the winning Team in.</li>
+				<li>I was winner of Maths Competition held in my class 12.</li>
+			</ul> 
+			<br>
+			<h3 style="text-align: left; text-shadow: 0 1px 2px #082829 ; font-size: 200%"><b>Hobbies</b></h3>
+			<ul style="text-align: left;font-weight: bold">
+				<li>Playing Cricket</li>
+				<li>listening Music</li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>
