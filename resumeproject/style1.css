@@ -1,0 +1,341 @@
+.parent1 {
+	border: 2px solid #dddd;
+	padding: 1%;
+	margin: 1%;
+	display: flex;
+	flex-direction: row;
+}
+.child1 img {
+
+	display: block;
+	width: 300px;
+	padding: 1%;
+	margin: 1%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
+.child1 {
+	border: 2px solid #ddd;
+	margin: 1%;
+	padding: 1%;
+	width: 30%;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 2%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.child2 img {
+
+	display: block;
+	width: 300px;
+	padding: 1%;
+	margin: 1%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%
+}
+.child2 {
+
+	border: 2px solid #ddd;
+	margin: 1%;
+	padding: 1%;
+	width: 30%;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 2%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+button {
+	display: inline-block;
+  padding: 15px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #212F3C;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+}
+button:hover {
+	background-color: #AEB6BF
+}
+
+button:active {
+  background-color: #5DADE2;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+@media only screen and (min-width: 320px) and (max-width: 480px){
+	.parent1 {
+	padding: 1%;
+	margin: 1%;
+	display: flex;
+	flex-direction: column;
+}
+.child1 img {
+
+	display: block;
+	width: 290px;
+	padding: 1%;
+	margin: 1%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
+.child1 {
+	margin: 1%;
+	padding: 1%;
+	width: 300px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 2%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.child2 img {
+
+	display: block;
+	width: 290px;
+	padding: 1%;
+	margin: 1%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%
+}
+.child2 {
+
+	margin: 1%;
+	padding: 1%;
+	width: 300px;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 2%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+button {
+	display: inline-block;
+  padding: 15px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #212F3C;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+}
+button:hover {
+	background-color: #AEB6BF
+}
+
+button:active {
+  background-color: #5DADE2;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	.parent1 {
+	padding: 1%;
+	margin: 1%;
+	display: flex;
+	flex-direction: column;
+}
+.child1 img {
+
+	display: block;
+	width: 290px;
+	padding: 1%;
+	margin: 1%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
+.child1 {
+	margin: 1%;
+	padding: 1%;
+	width: 300px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 2%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.child2 img {
+
+	display: block;
+	width: 290px;
+	padding: 1%;
+	margin: 1%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%
+}
+.child2 {
+
+	margin: 1%;
+	padding: 1%;
+	width: 300px;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 2%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+button {
+	display: inline-block;
+  padding: 15px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #212F3C;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+}
+button:hover {
+	background-color: #AEB6BF
+}
+
+button:active {
+  background-color: #5DADE2;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+	.parent1 {
+	padding: 1%;
+	margin: 1%;
+	display: flex;
+	flex-direction: column;
+}
+.child1 img {
+
+	display: block;
+	width: 290px;
+	padding: 1%;
+	margin: 1%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
+.child1 {
+	margin: 1%;
+	padding: 1%;
+	width: 300px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 2%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.child2 img {
+
+	display: block;
+	width: 290px;
+	padding: 1%;
+	margin: 1%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%
+}
+.child2 {
+
+	margin: 1%;
+	padding: 1%;
+	width: 300px;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 2%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+button {
+	display: inline-block;
+  padding: 15px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #212F3C;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+}
+button:hover {
+	background-color: #AEB6BF
+}
+
+button:active {
+  background-color: #5DADE2;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+}
+/*.buttonani {
+            border-radius: 4px;
+            background-color: #f4511e;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 15px;
+            padding: 5px;
+            width: 100px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+        }
+        .buttonani span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+        .buttonani span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+        .buttonani:hover span {
+            padding-right: 25px;
+        }
+        .buttonani:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+        .butop {
+            margin-left: auto;
+        }
+        body.modal-open .background-container{
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+    filter: url("https://gist.githubusercontent.com/amitabhaghosh197/b7865b409e835b5a43b5/raw/1a255b551091924971e7dee8935fd38a7fdf7311/blur".svg#blur);
+filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
+}*/

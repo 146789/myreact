@@ -1,0 +1,55 @@
+{
+	"details": {
+		"name":  "Munuparthi Naveen",
+		"image": "profileicon.png",
+		"email": "naveensrt248@gmail.com",
+		"Phone_number": "+91-9618760599",
+		"address": "visakhapatnam Andhra pradesh"
+	},
+
+	"careerobjective": {
+		"info": "Looking for a challenging role in a reputable organization to utilize my technical, database, and management skills for the growth of the organization as well as to enhance my knowledge about new and emerging trends in the IT sector."
+	},
+	"educationalqualifiacation": [
+		{
+			"Qualification":"UnderGraduate",
+			"School_or_College":"Raghu enginerring college",
+			"university_or_board":"Jntu Kakinada",
+			"course": "B.tech",
+			"passoutyear":"2014-2018",
+			"percentage": "72.03%"
+		},
+		{
+			"Qualification": "class 12",
+			"School_or_College":"Sri Gayatri junior college",
+			"university_or_board": "Borad of intermediarte of Andhra pradesh",
+			"course": "Maths, Pyshics, Chemistry",
+			"passoutyear":"2014",
+			"percentage": "92.3%"
+		},
+		{
+			"Qualification": "class 10",
+			"School_or_College":"Nalla's Vidya Niketan",
+			"university_or_board": "SSC of Andhra pradesh",
+			"course": "SSC",
+			"passoutyear":"2012",
+			"percentage": "92%"
+		}
+	],
+
+	"technicalskills" :[
+		{
+			"title":"programming languages",
+			"info":["c, c++, java, python, R"]
+		},
+		{
+			"title":"Databases",
+			"info":["Oracle-sql, MYsql, Mongodb"]
+		},
+		{
+			"title":"operation system",
+			"info":["Windows, Linux, Android"]
+		}
+	]
+
+}
